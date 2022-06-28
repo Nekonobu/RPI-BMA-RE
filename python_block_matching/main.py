@@ -3,6 +3,8 @@ import cv2
 from algorithms import *
 from utils import *
 
+cap = cv2
+
 ref_image = "/home/txp2/RPI-BMA-RE/frame10.png"
 cur_image = "/home/txp2/RPI-BMA-RE/frame11.png"
 cur_image = cv2.imread(cur_image)
